@@ -60,3 +60,4 @@ Enforce strict client_body_timeout limits at the reverse proxy or WAF level.
 Configure reverse proxies (Nginx, HAProxy, ALB) to buffer the entire request body in memory/disk before forwarding it to the backend application server.
 Migrate synchronous, thread-per-request application servers to asynchronous, event-driven I/O models where idle connections do not consume dedicated worker threads.
 
+Author: D3N14LD15K | Dissociated Security
