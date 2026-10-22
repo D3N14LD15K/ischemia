@@ -18,7 +18,7 @@ Ischemia executes a final-byte hold (partial-entity hold) attack:
 1. **Arming:** Establishes concurrent TCP/TLS connections and transmits the HTTP headers and the request body minus the final byte.
 2. **Holding:** The backend application server parses the `Content-Length` header, allocates a worker thread, and blocks on a `read()` syscall waiting for the remainder of the payload. Ischemia holds the connection open for a specified duration (`--hold-seconds`).
 3. **Release:** The final byte is released simultaneously across all armed connections. 
-4. **Measurement:** The tool captures precise timing metrics (armed, held, released, responded) to measure backend recovery time and generate deterministic evidence of resource exhaustion.
+4. **Measurement:** The tool captures precise timing metrics (armed, held, released, responded) to measure backend recovery time and generate evidence of resource exhaustion.
 
 
 ## Prerequisites
