@@ -1,3 +1,5 @@
+<img width="2172" height="724" alt="ischemia-horizontal-dissociated-refined" src="https://github.com/user-attachments/assets/85931b0a-520b-4834-afbc-9e83dbe77d54" />
+
 # Ischemia
 
 **Dissociated Security**
