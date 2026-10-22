@@ -6,6 +6,11 @@ Ischemia is an HTTP/1.1 partial-entity hold testing tool. It exploits synchronou
 
 It is designed for authorized penetration testing and infrastructure validation. It prioritizes evidentiary integrity, deterministic timing, and clean execution over raw noise.
 
+>
+> **Warning:** Ischemia is a denial-of-service testing tool. It is designed to exhaust server resources. Use only against targets you own or have explicit written authorization to test. The authors assume no liability for misuse.
+>
+>
+ 
 ## Mechanics
 
 Ischemia executes a final-byte hold (partial-entity hold) attack:
